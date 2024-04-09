@@ -1,5 +1,5 @@
 <?php
-
+header("Access-Control-Allow-Origin: *"); 
 class JSON_API {
   
   function __construct() {
